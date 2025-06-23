@@ -4,8 +4,8 @@ import { WebView } from 'react-native-webview'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
 const URI =
-  'http://idlt.localhost:8080/yoga-glossary'
-  // 'https://idlt-apps-web.vercel.app/yoga-glossary'
+  // 'http://idlt.localhost:8080/yoga-glossary'
+  'https://idlt-apps-web.vercel.app/yoga-glossary'
 
 const Page = () => {
   return (
