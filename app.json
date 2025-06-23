@@ -13,17 +13,29 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+      "supportsTablet": true,
+      "bundleIdentifier": "com.idlt.zte",
+      "config": {
+        "usesNonExemptEncryption": false
       },
-      "edgeToEdgeEnabled": true
+      "entitlements": {
+        "aps-environment": "development"
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "55b07dfd-5ca3-43d2-9b90-54b2a3afa174"
+      }
+    },
+    "owner": "idltapps"
   }
 }

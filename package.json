@@ -1,18 +1,30 @@
 {
   "name": "zte",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "expo-router/entry",
   "scripts": {
-    "start": "expo start",
+    "start": "expo start -c",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "lint": "expo lint",
+    "build": "eas build --platform ios",
+    "submit": "eas submit -p ios --latest",
+    "expo": "npm run build && npm run sumbit",
+    "git": "git add . && git commit -m 'add' && git push"
   },
   "dependencies": {
     "expo": "~53.0.12",
+    "expo-constants": "~17.1.6",
+    "expo-linking": "~7.1.5",
+    "expo-router": "~5.1.0",
     "expo-status-bar": "~2.2.3",
+    "nativewind": "^4.1.23",
     "react": "19.0.0",
-    "react-native": "0.79.4"
+    "react-native": "0.79.4",
+    "react-native-safe-area-context": "5.4.0",
+    "react-native-screens": "~4.11.1",
+    "react-native-webview": "^13.15.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
