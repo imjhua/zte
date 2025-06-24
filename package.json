@@ -8,6 +8,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "lint": "expo lint",
+    "init:version": "eas build:version:set",
     "build": "eas build --platform ios",
     "submit": "eas submit -p ios --latest",
     "expo": "npm run build && npm run sumbit",
