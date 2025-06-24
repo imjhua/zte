@@ -11,7 +11,7 @@
     "init:version": "eas build:version:set",
     "build": "eas build --platform ios",
     "submit": "eas submit -p ios --latest",
-    "expo": "npm run build && npm run sumbit",
+    "expo": "npm run build && npm run submit",
     "git": "git add . && git commit -m 'add' && git push"
   },
   "dependencies": {

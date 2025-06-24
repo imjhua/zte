@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "zte",
+    "name": "친절한 요가용어 안내서",
     "slug": "zte",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -36,6 +36,7 @@
         "projectId": "55b07dfd-5ca3-43d2-9b90-54b2a3afa174"
       }
     },
-    "owner": "idltapps"
+    "owner": "idltapps",
+    "jsEngine": "jsc" 
   }
 }
